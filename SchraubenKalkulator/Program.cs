@@ -4,35 +4,47 @@ namespace SchraubenKalkulator
 {
     class Program
     {
-
         static void Main(string[] args)
-        {
-            Schrauben.calculateOrderTtl(schraubenAnzahl, mutterAnzahl, unterlegscheibeAnzahl);
-        }
-
-    class Schrauben
-    {
-            public int schraubenAnzahl = 0;
-            public int mutterAnzahl;
-            public int unterlegscheibeAnzahl;
-
-            public static int schraubenPreis = 5;
-        public static int mutterPreis = 3;
-        public static int unterlegscheibePreis = 1;
-
-        public static void getOrderAmounts(int a, int b, int c)
         {
             string amount;
             Console.WriteLine("Bitte geben Sie die Anzahl von Schrauben ein");
             amount = Console.ReadLine();
-            a = Int32.Parse(amount);
+            Schrauben.schraubenAnzahl = Int32.Parse(amount);
 
             Console.WriteLine("Bitte geben Sie die Anzahl von Muttern ein");
-            b = Int32.Parse(Console.ReadLine());
+            Schrauben.mutterAnzahl = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine("Bitte geben Sie die Anzahl von Unterlegscheiben ein");
-            c = Convert.ToInt32(Console.ReadLine());
+            Schrauben.unterlegscheibeAnzahl = Convert.ToInt32(Console.ReadLine());
+
+
+            Schrauben.calculateOrderTtl();
         }
+    }
+
+    class Schrauben
+    {
+        public static int schraubenPreis = 5;
+        public static int mutterPreis = 3;
+        public static int unterlegscheibePreis = 1;
+
+        public static int schraubenAnzahl;
+        public static int mutterAnzahl;
+        public static int unterlegscheibeAnzahl;
+
+        public static void calculateOrderTtl()
+        {
+            checkOrderAmount(schraubenAnzahl, mutterAnzahl, unterlegscheibeAnzahl);
+
+            int totalPreis = schraubenAnzahl * schraubenPreis + mutterAnzahl * mutterPreis + unterlegscheibeAnzahl * unterlegscheibePreis;
+            Console.WriteLine($"Gesamtbetrag: {totalPreis} Cent");
+            Console.ReadKey();
+        }
+
+        //public void getOrderAmounts(int a, int b, int c)
+        //{
+            
+        //}
 
         public static void checkOrderAmount(int a, int b, int c)
         {
@@ -45,15 +57,6 @@ namespace SchraubenKalkulator
                 Console.WriteLine("Kontrollieren Sie Ihre Bestellung");
             }
             else Console.WriteLine("Die Bestellung ist Okay");
-        }
-
-        public static void calculateOrderTtl(int a, int b, int c)
-        {
-            getOrderAmounts(a, b, c);
-            checkOrderAmount(a, b, c);
-            int totalPreis = a * schraubenPreis + b * mutterPreis + c * unterlegscheibePreis;
-            Console.WriteLine($"Gesamtbetrag: {totalPreis} Cent");
-            Console.ReadKey();
         }
     }
 }
