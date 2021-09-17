@@ -1,0 +1,11 @@
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\obj\Debug\netcoreapp2.1\SchraubenKalkulator.csprojAssemblyReference.cache
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\obj\Debug\netcoreapp2.1\SchraubenKalkulator.csproj.CoreCompileInputs.cache
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\obj\Debug\netcoreapp2.1\SchraubenKalkulator.AssemblyInfoInputs.cache
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\obj\Debug\netcoreapp2.1\SchraubenKalkulator.AssemblyInfo.cs
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\bin\Debug\netcoreapp2.1\SchraubenKalkulator.deps.json
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\bin\Debug\netcoreapp2.1\SchraubenKalkulator.runtimeconfig.json
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\bin\Debug\netcoreapp2.1\SchraubenKalkulator.runtimeconfig.dev.json
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\bin\Debug\netcoreapp2.1\SchraubenKalkulator.dll
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\bin\Debug\netcoreapp2.1\SchraubenKalkulator.pdb
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\obj\Debug\netcoreapp2.1\SchraubenKalkulator.dll
+C:\Users\niil02\Documents\VS Projekte\SchraubenKalkulator\SchraubenKalkulator\obj\Debug\netcoreapp2.1\SchraubenKalkulator.pdb
