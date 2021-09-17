@@ -1,0 +1,11 @@
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\bin\Debug\netcoreapp2.1\Buchstabenkiste.deps.json
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\bin\Debug\netcoreapp2.1\Buchstabenkiste.runtimeconfig.json
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\bin\Debug\netcoreapp2.1\Buchstabenkiste.runtimeconfig.dev.json
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\bin\Debug\netcoreapp2.1\Buchstabenkiste.dll
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\bin\Debug\netcoreapp2.1\Buchstabenkiste.pdb
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\obj\Debug\netcoreapp2.1\Buchstabenkiste.csprojAssemblyReference.cache
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\obj\Debug\netcoreapp2.1\Buchstabenkiste.csproj.CoreCompileInputs.cache
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\obj\Debug\netcoreapp2.1\Buchstabenkiste.AssemblyInfoInputs.cache
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\obj\Debug\netcoreapp2.1\Buchstabenkiste.AssemblyInfo.cs
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\obj\Debug\netcoreapp2.1\Buchstabenkiste.dll
+C:\Users\niil02\Documents\VS Projekte\Buchstabenkiste\Buchstabenkiste\obj\Debug\netcoreapp2.1\Buchstabenkiste.pdb
