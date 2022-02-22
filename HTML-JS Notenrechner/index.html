@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="./main.js" defer></script>
+    <title>SMS Auswertungsrechner</title>
+</head>
+<body>
+    <header class="main-container header">
+        <div class="header-logo-wrapper sms-logo">
+            <a href="https://www.sms-group.com/de/" target="_blank" class="link header-link"></a>
+        </div>
+        <div class="header-logo-wrapper ihk-logo">
+            <a href="https://azubionline-ihk.de/tibrosBB/BB_auszubildende.jsp" target="_blank" class="link header-link"></a>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <h2 class="text-primary display-5">IHK Prüfung Auswertungsrechner</h2>
+            <form id="mainForm" class="form">
+                <div class="form-group">
+                    <label for="teil1">Teil 1 - "Einrichten eines IT-gestützten Arbeitplatzes"</label>
+                    <input class="form-control teil1" id="teil1" type="number" max="100" min="0" placeholder="Geben Sie Ihre Note hier ein (0-100 Format)">
+                </div>
+                <div class="form-group">
+                    <label for="teil2b1t1">Teil 2 - Bereich 1, Teil 1 "Planen & Umsetzen eines SW Projekts (Präsentation)"</label>
+                    <input class="form-control teil2b1t1" id="teil2b1t1" type="number" max="100" min="0" placeholder="Geben Sie Ihre Note hier ein (0-100 Format)">
+                </div>
+                <div class="form-group">
+                    <label for="teil2b1t2">Teil 2 - Bereich 1, Teil 2 "Planen & Umsetzen eines SW Projekts (Fachgespräch)"</label>
+                    <input class="form-control teil2b1t2" id="teil2b1t2" type="number" max="100" min="0" placeholder="Geben Sie Ihre Note hier ein (0-100 Format)">
+                </div>
+                <div class="form-group">
+                    <label for="teil2b2">Teil 2 - Bereich 2 "Planen eines SW Produktes"</label>
+                    <input class="form-control teil2b2" id="teil2b2" type="number" max="100" min="0" placeholder="Geben Sie Ihre Note hier ein (0-100 Format)">
+                </div>
+                <div class="form-group">
+                    <label for="teil2b3">Teil 2 - Bereich 3 "Entwicklung und Umsetzung von Algorithmen"</label>
+                    <input class="form-control teil2b3" id="teil2b3" type="number" max="100" min="0" placeholder="Geben Sie Ihre Note hier ein (0-100 Format)">
+                </div>
+                <div class="form-group">
+                    <label for="teil2b4">Teil 2 - Bereich 4 "Wirtschafts- und Sozialkunde"</label>
+                    <input class="form-control teil2b4" id="teil2b4" type="number" max="100" min="0" placeholder="Geben Sie Ihre Note hier ein (0-100 Format)">
+                </div>
+                <button class="btn btn-primary">Ergebnis prüfen</button>
+                <input type="reset" class="btn btn-secondary"/>
+            </form>
+            <div class="resultContainer">
+                <h6 class="resultHeader">Ihr Ergebnis:</h5>
+                <p class="resultField"></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.main-container {
+    margin: 0 10%;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+.header-logo-wrapper {
+    flex: 1 1 50%;
+    max-width: 40%;
+    min-height: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sms-logo {
+    background-image: url("http://smsintranet.sms-group.com/cps/rde/xbcr/intra/SMSgroup_4C_150dpi.jpg");
+}
+
+.ihk-logo {
+    background-image: url("https://www.wochenendspiegel.de/wp-content/uploads/2020/07/IHK-logo.svg_-e1596094077354.png");
+}
+
+.header-link {
+    display: block;
+    box-sizing: border-box;
+    min-height: inherit;
+}
+.form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    min-width: 535px;
+}
+
+.resultHeader {
+    display: inline;
+}
+
+.resultField {
+    display: inline;
+    margin-top: 20px;
+}
